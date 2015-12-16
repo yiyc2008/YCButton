@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63A355D1C2047D800B88302 /* YCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B63A355C1C2047D800B88302 /* YCButton.m */; };
 		B6F2F9D71C199C9300E74F4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2F9D61C199C9300E74F4B /* main.m */; };
 		B6F2F9DA1C199C9300E74F4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2F9D91C199C9300E74F4B /* AppDelegate.m */; };
 		B6F2F9DD1C199C9300E74F4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F2F9DC1C199C9300E74F4B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B63A355B1C2047D800B88302 /* YCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCButton.h; sourceTree = "<group>"; };
+		B63A355C1C2047D800B88302 /* YCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCButton.m; sourceTree = "<group>"; };
 		B6F2F9D21C199C9300E74F4B /* YCButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6F2F9D61C199C9300E74F4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B6F2F9D81C199C9300E74F4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B63A355A1C2047D800B88302 /* YCButton */ = {
+			isa = PBXGroup;
+			children = (
+				B63A355B1C2047D800B88302 /* YCButton.h */,
+				B63A355C1C2047D800B88302 /* YCButton.m */,
+			);
+			path = YCButton;
+			sourceTree = "<group>";
+		};
 		B6F2F9C91C199C9300E74F4B = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		B6F2F9D41C199C9300E74F4B /* YCButton */ = {
 			isa = PBXGroup;
 			children = (
+				B63A355A1C2047D800B88302 /* YCButton */,
 				B6F2F9D81C199C9300E74F4B /* AppDelegate.h */,
 				B6F2F9D91C199C9300E74F4B /* AppDelegate.m */,
 				B6F2F9DB1C199C9300E74F4B /* ViewController.h */,
@@ -151,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F2F9DD1C199C9300E74F4B /* ViewController.m in Sources */,
+				B63A355D1C2047D800B88302 /* YCButton.m in Sources */,
 				B6F2F9DA1C199C9300E74F4B /* AppDelegate.m in Sources */,
 				B6F2F9D71C199C9300E74F4B /* main.m in Sources */,
 			);
@@ -299,6 +313,7 @@
 				B6F2F9EB1C199C9300E74F4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
